@@ -3,6 +3,12 @@ import axios from 'axios'
 import { Message } from 'element-ui'
 import util from '@/libs/util'
 
+// 与请求有关的东西，有一个 requests 拦截器 还有一个 response 拦截器  
+// 可以在请求提交之前做一些事情，
+// 可以在响应之后做一点事情
+
+
+
 // 创建一个错误
 function errorCreate (msg) {
   const error = new Error(msg)

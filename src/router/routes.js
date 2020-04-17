@@ -41,13 +41,13 @@ const frameIn = [
         component: _import('demo/page2')
       },
       {
-        path: 'page3',
-        name: 'page3',
+        path: 'order',
+        name: 'order',
         meta: {
-          title: '页面 3',
+          title: '订单管理',
           auth: true
         },
-        component: _import('demo/page3')
+        component: _import('demo/order')
       },
       // 系统 前端日志
       {

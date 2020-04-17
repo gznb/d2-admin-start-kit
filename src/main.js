@@ -11,7 +11,12 @@ import store from '@/store/index'
 import router from './router'
 import menuHeader from '@/menu/header'
 import menuAside from '@/menu/aside'
-import { frameInRoutes } from '@/router/routes'
+import {
+  frameInRoutes
+} from '@/router/routes'
+
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 // 核心插件
 Vue.use(d2Admin)

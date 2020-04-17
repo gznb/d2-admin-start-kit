@@ -20,6 +20,7 @@
     "better-scroll": "^1.15.2",
     "core-js": "^3.4.3",
     "dayjs": "^1.8.17",
+    "echarts": "^4.7.0",
     "element-ui": "^2.13.0",
     "flex.css": "^1.1.7",
     "fuse.js": "^3.4.6",
